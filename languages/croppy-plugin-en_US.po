@@ -1,0 +1,11 @@
+msgid "Email Address:"
+msgstr "E-Mail-Address:"
+
+msgid "Configure"
+msgstr "Configure"
+
+msgid "Logout"
+msgstr "Ausloggen"
+
+msgid "Open Croppy"
+msgstr "Open Croppy"

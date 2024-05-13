@@ -1,0 +1,91 @@
+.croppy-header {
+    background-color: #271031;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.croppy-header img {
+    display: inline-block;
+}
+
+.croppy-header strong {
+    display: inline-block;
+}
+
+.croppy-wrap h2 {
+    color: white;
+    font-size: 5rem;
+    margin-left: 1rem;
+}
+
+.croppy-wrap p {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.croppy-card {
+	background: url('../assets/croppy_background.webp') center center;
+    background-size: cover;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 1000px;
+	min-height: 512px;
+	text-align: start;
+	color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.croppy-logo {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.croppy-iframe {
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+
+.croppy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #271031;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin-left: 1rem;
+    width: fit-content;
+    margin-bottom: 10px;
+}
+
+.croppy-button:hover {
+    background-color: #572b69;
+    color: white;
+    cursor: pointer;
+}
+
+.croppy-logout {
+    margin-left: auto;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #4d1366;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.croppy-logout:hover {
+    background-color: #69377e;
+}
